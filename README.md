@@ -1,16 +1,17 @@
 # chess.js
 
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/jhlywa/chess.js/node.js.yml)
+<!-- ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/jhlywa/chess.js/node.js.yml)
 ![npm](https://img.shields.io/npm/v/chess.js?color=blue)
-![npm](https://img.shields.io/npm/dm/chess.js)
+![npm](https://img.shields.io/npm/dm/chess.js) -->
 
-chess.js is a TypeScript chess library used for chess move
+WORK IN PROGRESS
+
+anarchychess.js is a TypeScript chess library used for chess move
 generation/validation, piece placement/movement, and check/checkmate/stalemate
 detection - basically everything but the AI.
 
-chess.js has been extensively tested in node.js and most modern browsers.
 
-## Installation
+<!-- ## Installation
 
 Run the following command to install the most recent version of chess.js from
 NPM:
@@ -898,4 +899,4 @@ chess.validateFen('2n1r3/p1k2pp1/B1p3b1/P7/5bP1/2N1B3/1P2KP2/2R5 b - - 4 25')
 chess.validateFen('4r3/8/X12XPk/1p6/pP2p1R1/P1B5/2P2K2/3r4 w - - 1 45')
 // -> { ok: false,
 //     error: '1st field (piece positions) is invalid [invalid piece].' }
-```
+``` -->
