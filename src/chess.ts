@@ -714,6 +714,19 @@ export class Chess {
       }
     }
 
+    /**
+     * 
+     * Implementing custom anarchychess rules
+     * 
+     */
+
+    /**
+     * Il Vaticano -- When bishops, placed two squares apart, capture two pieces in between them.  
+     * An il vaticano is notated in algebraic notation as V-V, with square of the light-square bishop appended as a disambiguation when needed,
+     *  i.e. "V-Vc4"
+     */
+
+
     return [
       fen,
       this._turn,
@@ -723,6 +736,9 @@ export class Chess {
       this._moveNumber,
     ].join(' ')
   }
+
+
+  
 
   /*
    * Called when the initial board setup is changed with put() or remove().
